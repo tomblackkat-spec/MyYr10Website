@@ -82,6 +82,7 @@ img {
 .topic-content{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
     gap: 6em;
     /* bring the whole section in off the sides of the page */
     width: 70%;
@@ -117,5 +118,24 @@ img {
 a {
     color: rgb(255, 0, 0);
     text-align: left;
-  
+}
+.center-container {
+  text-align: center; 
+}
+
+.special-link {
+  color: rgb(0, 0, 0);
+  font-size: 40px;
+}
+.special-link  {
+  color: rgb(0, 0, 0);
+  font-size: 40px;
+  display: block;
+  text-align: center;
+}
+.centered-video {
+  display: block;    /* Changes video from inline to block */
+  margin: 0 auto;    /* Centers horizontally */
+  max-width: 100%;   /* Keeps it responsive */
+  width: 640px;      /* Sets a defined constraints width */
 }
